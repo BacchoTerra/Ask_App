@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Ask App</string>
+    <string name="continue_with_e_mail">Continue with e-mail</string>
+    <string name="sign_in">Sign in</string>
+    <string name="enter_as_a_guest">Enter as a guest</string>
+    <string name="ask_app_headline_2">Ask, answer, spend time, and learn a new language doing it</string>
+    <string name="image_with_a_woman_spending_time">Image with a woman spending time</string>
 </resources>

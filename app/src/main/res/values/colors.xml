@@ -3,4 +3,10 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="textPrimaryColor">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="backgroundGray">#f4f4f4</color>
+    <color name="statusBarColor">#f7f7f8</color>
 </resources>
