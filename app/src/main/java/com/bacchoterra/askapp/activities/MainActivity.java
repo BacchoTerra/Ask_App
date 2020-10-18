@@ -1,14 +1,16 @@
-package com.bacchoterra.askapp;
+package com.bacchoterra.askapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class WelcomeActivity extends AppCompatActivity {
+import com.bacchoterra.askapp.R;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_welcome);
+        setContentView(R.layout.activity_main);
     }
 }
