@@ -55,6 +55,7 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
         txtEnterAsAGuest = findViewById(R.id.activity_welcome_txtEnterAsAGuest);
 
         btnGoogleSignIn.setOnClickListener(this);
+        btnEmailSignUp.setOnClickListener(this);
 
     }
 
@@ -82,6 +83,9 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.activity_welcome_btnGoogleSignIn:
                 signInWithGoogleDialog();
                 break;
+
+            case R.id.activity_welcome_btnContinueWithEmail:
+                startActivity(new Intent(WelcomeActivity.this,AuthActivity.class));
         }
     }
 
